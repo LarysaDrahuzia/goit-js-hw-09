@@ -5,6 +5,8 @@
   margin-top: 32px;
   border: 1px solid;
   border-radius: 8px;
+  background-color: cornflowerblue;
+  color: azure;
 }
 .back-link::before {
   content: '';
