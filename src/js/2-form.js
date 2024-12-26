@@ -27,11 +27,7 @@ const checkFormData = () => {
 checkFormData();
 
 const formDataInput = event => {
-  const { target: formInputEl } = event;
-  const inputValue = formInputEl.value;
-  const inputName = formInputEl.name;
-
-  formData[inputName] = inputValue;
+  formData = { email: email.value, message: message.value };
 
   localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 };
